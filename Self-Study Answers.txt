@@ -1,0 +1,23 @@
+
+
+    1.If you were to describe semantic HTML to the next cohort of students, what would you say?
+     HTML semantic has meaning so which should be use to have a organized your website.
+
+    2. What are the 4 areas of the box model?
+    margin, padding, border, content
+
+   3. While using flexbox, what axis does the following property work on: align-items: center?
+     the cross axis.
+
+    4.Explain why git is valuable to a team of developers.
+    to add changes to a project without changing the oringnal code.
+
+    5.Define mobile-first design in your own words.
+    Building a website in mobile view first.
+
+
+
+
+
+
+
