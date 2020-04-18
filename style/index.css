@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -53,22 +53,69 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bangers', cursive;
+    
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bangers', cursive;
+    color: crimson;
 }
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  
+}
+
+nav {
+  display: flex;
+  margin: 20px 45px 20px 10px;
+}
+
+nav a {
+  margin: 0px 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo img {
+  margin: 10px 0px 38px 90px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+  
 }
 
 .top-content {
@@ -127,20 +174,137 @@ p {
 }
 
 footer {
-    width: 100%;
+    display: flex;
+    width: 800px;
     background: black;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    justify-content: flex-start;
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
+    margin: 20px 30px 20px -6px;
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    margin: 0px 32px;
 }
+
+#box1 {
+  background-color: teal;
+  color: blue;
+}
+
+#box2 {
+  background-color: gold;
+  color: blueviolet;
+}
+
+#box3 {
+  background-color: cadetblue;
+  color: azure;
+}
+
+#box4 {
+  background-color: coral; 
+  color: cornflowerblue;
+}
+
+#box5 {
+  background-color: crimson;
+  color: cornflowerblue;
+}
+
+#box6 {
+  background-color: forestgreen;
+  color: brown;
+}
+
+#box7 {
+  background-color: darkorchid;
+  color: black;
+}
+
+#box8 {
+  background-color: hotpink;
+  color: cyan;
+}
+
+#box9 {
+  background-color: indigo;
+  color: slateblue;
+}
+
+#box10 {
+  background-color: dodgerblue;
+  color: fuchsia;
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width:800px){
+    
+.main-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 800px;
+}
+.top-content {
+    width: 800px;
+}
+
+
+#box5 {
+    display: none;
+}
+#box6 {
+    display: none;
+}
+#box7 {
+    display: none;
+}
+#box8 {
+    display: none;
+}
+#box9 {
+    display: none;
+}
+#box10 {
+    display: none;
+}
+.middle-content h2{
+    text-align: center;
+
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 800px;
+}
+.bottom-content {
+    display: none;
+}
+footer {
+    display: none;
+    
+}
+    
