@@ -31,8 +31,102 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8rem;
+    
+    
+}
+
+
+
+
+.main-nav   {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+    
+     
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1.5rem;
+
+    }
+
+
+
+
+
+
+.box1 {
+    background-color: teal;
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 500px ;
+}
+.box2 {
+    background-color: gold;
+    padding: 2rem;
+    margin: 1rem;
+
+}
+.box3 {
+    background-color: cadetblue;
+    padding: 2rem;
+    margin: 1rem;
+}
+.box4 {
+    background-color: coral;
+    padding: 2rem;
+    margin: 1rem;
+    
+}
+.box5 {
+    background-color: crimson;
+    padding: 2rem;
+    margin: 1rem;
+    }
+ .box6 {
+        background-color: forestgreen;
+        padding: 2rem;
+        margin: 1rem;
+    }
+.box7 {
+        background-color: darkorchid;
+        padding: 2rem;
+        margin: 1rem;
+    }
+    .box8 {
+        background-color: hotpink;
+        padding: 2rem;
+        margin: 1rem;
+    }
+    .box9 {
+        background-color: dodgerblue;
+        padding: 2rem;
+        margin: 1rem;
+    }
+    .box10 {
+        background-color: teal;
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+
+
 }
 blockquote, q {
 	quotes: none;
@@ -144,3 +238,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+@media (max-width: 500px)  {
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .banner {
+        width: 100%;
+        margin: 20px 20px;
+    }
+    h2 {
+        max-width: 100vh;
+    }
+    
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        
+    }
+ 
